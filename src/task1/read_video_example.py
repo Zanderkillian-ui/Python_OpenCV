@@ -44,7 +44,7 @@ while True:
     cv.imshow('frame', frame)
 
     # Press 'q' to exit the display early
-    if cv.waitKey(1) == ord('q'):
+    if cv.waitKey(0) == ord('q'):
         break
 
 # When everything done, release the capture
